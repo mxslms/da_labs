@@ -51,5 +51,3 @@ plt.show()
 sns.boxplot(x="drive-wheels", y="price", data=df)
 plt.show()
 '''
-print(df.describe(include=['object']))
-print('hello')
