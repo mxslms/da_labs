@@ -12,8 +12,7 @@ warnings.filterwarnings("ignore", category=UserWarning)
 
 #This function will download the dataset into your browser 
 
-filepath = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DA0101EN-Coursera/laptop_pricing_dataset_mod2.csv"
-df = pd.read_csv(filepath, header=0)
+ 
 
 lm = LinearRegression()
 X = df[['CPU_frequency']]
